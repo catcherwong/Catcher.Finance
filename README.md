@@ -27,4 +27,17 @@ Publish the manage webstie(NancyFx hosting with aspnet) to the centos 7,combine 
 
 You can find the tinyfox web server and jexus web server on http://linuxdot.net/
 
+There are some pictures about the project!
+
+The splash page:
+![the app-splash](https://github.com/hwqdt/Catcher.Finance/blob/master/app-splash.png)
+
+The login page:
+![the app-login](https://github.com/hwqdt/Catcher.Finance/blob/master/app-login.png)
+
+Starting the tinyfox server for the app:
+![start the tinyfox server](https://github.com/hwqdt/Catcher.Finance/blob/master/tinyfox-server.png)
+
+Starting the jexus server for the manage website:
+![start the jexus server](https://github.com/hwqdt/Catcher.Finance/blob/master/jexus-server.png)
 
