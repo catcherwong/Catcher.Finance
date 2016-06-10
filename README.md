@@ -6,15 +6,18 @@ In this project,the technologies include Xamarin,uwp,NancyFx,mongodb,asp.net mvc
 
 What this project includes are as follow:
 
-1.Manage website : NancyFx hosting with aspnet
+1.Manage website :  
+NancyFx hosting with aspnet
 
-2.The data service : Contains two ways,the first is NancyFx hosting with owin ,
-                                       the second is ASP.NET MVC
+2.The data service :  
+Contains two ways,  
+the first is NancyFx hosting with owin ,  
+the second is ASP.NET MVC
 
-3.The Apps : 
-      Android : using Xamarin.Android
-      UWP : not complete
-      IOS : not complete
+3.The Apps :  
+Android : using Xamarin.Android  
+UWP : not complete  
+IOS : not complete
 
 All the tests about this project are in my own computer.
 
@@ -22,5 +25,6 @@ Publish the data service(NancyFx hosting with owin) to the centos 7, combine wit
 
 Publish the manage webstie(NancyFx hosting with aspnet) to the centos 7,combine with jexus.
 
+You can find the tinyfox web server and jexus web server on the http://linuxdot.net/
 
 
