@@ -29,10 +29,12 @@ You can find the tinyfox web server and jexus web server on http://linuxdot.net/
 
 There are some pictures about the project!
 
-The splash page:
+The splash page:  
+
 ![the app-splash](https://github.com/hwqdt/Catcher.Finance/blob/master/app-splash.png)
 
-The login page:
+The login page:  
+
 ![the app-login](https://github.com/hwqdt/Catcher.Finance/blob/master/app-login.png)
 
 Starting the tinyfox server for the app:
