@@ -1,6 +1,6 @@
 # Catcher.Finance
 
-the code for the blog  http://www.cnblogs.com/catcher1994/p/5458001.html
+The code for my blog --  http://www.cnblogs.com/catcher1994/p/5458001.html
  
 In this project,the technologies include Xamarin,uwp,NancyFx,mongodb,asp.net mvc and so on.
 
@@ -25,6 +25,6 @@ Publish the data service(NancyFx hosting with owin) to the centos 7, combine wit
 
 Publish the manage webstie(NancyFx hosting with aspnet) to the centos 7,combine with jexus.
 
-You can find the tinyfox web server and jexus web server on the http://linuxdot.net/
+You can find the tinyfox web server and jexus web server on http://linuxdot.net/
 
 
