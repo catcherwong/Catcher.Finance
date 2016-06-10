@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent">
+    <FrameLayout
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:layout_above="@+id/menuGroup"
+        p1:layout_marginBottom="10dp"
+        p1:id="@+id/framelayout_Show" />
+    <RadioGroup
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_alignParentBottom="true"
+        p1:id="@+id/menuGroup">
+        <RadioButton
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:layout_weight="1"
+            p1:text="Add"
+            p1:id="@+id/rbtn_addItem"
+            p1:textSize="10sp"
+            p1:button="@null"
+            p1:gravity="center"
+            p1:drawableTop="@drawable/add"
+            p1:drawablePadding="10dp" />
+        <RadioButton
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:layout_weight="1"
+            p1:text="Detials"
+            p1:id="@+id/rbtn_itemDetial"
+            p1:textSize="10sp"
+            p1:button="@null"
+            p1:gravity="center"
+            p1:drawableTop="@drawable/list"
+            p1:drawablePadding="10dp" />
+        <RadioButton
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:layout_weight="1"
+            p1:text="Service"
+            p1:id="@+id/rbtn_service"
+            p1:textSize="10sp"
+            p1:button="@null"
+            p1:gravity="center"
+            p1:drawableTop="@drawable/service"
+            p1:drawablePadding="10dp" />
+    </RadioGroup>
+</RelativeLayout>

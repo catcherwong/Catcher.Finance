@@ -1,0 +1,113 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+<!--<![endif]-->
+<!-- Specific Page Data -->
+<!-- End of Data -->
+
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <meta name="keywords" content="HTML5 Template, CSS3, All Purpose Admin Template, Vendroid" />
+    <meta name="description" content="Responsive Admin Template for blogging dashboard">
+    <meta name="author" content="Venmond">
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="img/ico/favicon.png">
+    @Html.Partial("_PartialCSS")
+    @Html.Partial("_PartialHeadJS")
+</head>
+
+<body id="email" class="full-layout    nav-top-fixed   nav-right-small   responsive    clearfix" data-active="email " data-smooth-scrolling="1">
+    <div class="vd_body">
+        @Html.Partial("_PartialHeader")
+        <div class="content">
+            <div class="container">
+                <div class="vd_navbar vd_nav-width vd_navbar-email vd_bg-black-80 vd_navbar-left vd_navbar-style-2 ">
+                    <div class="navbar-tabs-menu clearfix">
+                        <div class="menu-container">
+                            <div class="navbar-search-wrapper">
+                                <div class="navbar-search vd_bg-black-30">
+                                    <span class="append-icon"><i class="fa fa-search"></i></span>
+                                    <input type="text" placeholder="Search" class="vd_menu-search-text no-bg no-bd vd_white width-70" name="search">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-menu clearfix">
+                        <div class="vd_menu">
+                            <ul>
+                                <li class="line vd_bd-grey">
+                                </li>
+                                <li>
+                                    <a href="/main/money">
+                                        <span class="menu-icon"><i class="fa fa-shield"></i></span>
+                                        <span class="menu-text">收支管理</span>
+                                        <span class="menu-badge"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/main/user">
+                                        <span class="menu-icon entypo-icon"><i class="icon-user"></i></span>
+                                        <span class="menu-text">会员管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/main/category">
+                                        <span class="menu-icon"><i class="glyphicon glyphicon-file"></i></span>
+                                        <span class="menu-text">分类管理</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <!-- Head menu search form ends -->
+                        </div>
+                    </div>
+                    <div class="navbar-spacing clearfix">
+                    </div>
+                </div>
+                <!-- Middle Content Start -->
+                <div class="vd_content-wrapper">
+                    @RenderBody()
+                    <!-- .vd_content -->
+                </div>
+                <!-- .vd_container -->
+            </div>
+            <!-- .vd_content-wrapper -->
+            <!-- Middle Content End -->
+        </div>
+        <!-- .container -->
+    </div>
+    <!-- .content -->
+    <!-- Footer Start -->
+    @*<footer class="footer-1" id="footer">
+            <div class="vd_bottom ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="copyright">
+                                Copyright &copy;2016
+                            </div>
+                        </div>
+                    </div><!-- row -->
+                </div><!-- container -->
+            </div>
+        </footer>*@
+    <!-- Footer END -->
+    </div>
+    <!-- .vd_body END  -->
+    <a id="back-top" href="#" data-action="backtop" class="vd_back-top visible"> <i class="fa  fa-angle-up"> </i> </a>
+    @Html.Partial("_PartialFooterJS")
+</body>
+</html>

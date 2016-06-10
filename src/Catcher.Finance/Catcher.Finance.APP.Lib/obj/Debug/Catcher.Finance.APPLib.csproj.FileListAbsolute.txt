@@ -1,0 +1,16 @@
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Debug\Catcher.Finance.APPLib.dll
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Debug\Catcher.Finance.APPLib.pdb
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Debug\System.Json.dll
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Debug\Catcher.Finance.APPLib.csprojResolveAssemblyReference.cache
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Debug\Catcher.Finance.APPLib.dll
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Debug\Catcher.Finance.APPLib.pdb
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Debug\Catcher.Finance.APPLib.dll.mdb
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Debug\Catcher.Finance.APPLib.dll.mdb
+D:\GithubCode\Catcher.Finance\src\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Debug\Catcher.Finance.APPLib.dll
+D:\GithubCode\Catcher.Finance\src\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Debug\Catcher.Finance.APPLib.pdb
+D:\GithubCode\Catcher.Finance\src\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Debug\System.Json.dll
+D:\GithubCode\Catcher.Finance\src\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Debug\Catcher.Finance.APPLib.csprojResolveAssemblyReference.cache
+D:\GithubCode\Catcher.Finance\src\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Debug\Catcher.Finance.APPLib.dll
+D:\GithubCode\Catcher.Finance\src\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Debug\Catcher.Finance.APPLib.pdb
+D:\GithubCode\Catcher.Finance\src\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Debug\Catcher.Finance.APPLib.dll.mdb
+D:\GithubCode\Catcher.Finance\src\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Debug\Catcher.Finance.APPLib.dll.mdb

@@ -1,0 +1,9 @@
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Release\Catcher.Finance.APPLib.dll
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Release\Catcher.Finance.APPLib.pdb
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Release\System.Json.dll
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Release\Catcher.Finance.APPLib.dll
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Release\Catcher.Finance.APPLib.pdb
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Release\Catcher.Finance.APPLib.dll.mdb
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Release\Catcher.Finance.APPLib.dll.mdb
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Release\Catcher.Finance.APPLib.dll.mdb
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Release\Catcher.Finance.APPLib.dll.mdb

@@ -1,0 +1,152 @@
+﻿@{
+    Layout = "Views/_LayoutMain.cshtml";
+    ViewBag.Title = "主界面";
+}
+
+
+<div class="vd_container">
+    <div class="vd_content clearfix">
+
+        <div class="vd_head-section clearfix">
+            <div class="vd_panel-header">
+                <ul class="breadcrumb">
+                    <li><a href="index.html" class="active">首页</a></li>
+                </ul>
+                <div class="vd_panel-menu hidden-sm hidden-xs" data-intro="<strong>Expand Control</strong><br/>To expand content page horizontally, vertically, or Both. If you just need one button just simply remove the other button code." data-step=5 data-position="left">
+                    <div data-action="remove-navbar" data-original-title="Remove Navigation Bar Toggle" data-toggle="tooltip" data-placement="bottom" class="remove-navbar-button menu"> <i class="fa fa-arrows-h"></i> </div>
+                    <div data-action="remove-header" data-original-title="Remove Top Menu Toggle" data-toggle="tooltip" data-placement="bottom" class="remove-header-button menu"> <i class="fa fa-arrows-v"></i> </div>
+                    <div data-action="fullscreen" data-original-title="Remove Navigation Bar and Top Menu Toggle" data-toggle="tooltip" data-placement="bottom" class="fullscreen-button menu"> <i class="glyphicon glyphicon-fullscreen"></i> </div>
+
+                </div>
+
+            </div>
+            <!-- vd_panel-header -->
+        </div>
+        <!-- vd_panel-head-section -->
+
+        <div class="vd_title-section clearfix">
+            <div class="vd_panel-header">
+                <h1>平台数据汇总</h1>
+                <small class="subtitle"></small>
+                <div class="vd_panel-menu  hidden-xs">
+                    @*<div class="menu">
+                        <div data-action="click-trigger"> Go To <i class="fa fa-angle-down"></i> </div>
+                        <div class="vd_mega-menu-content width-xs-2 left-xs" data-action="click-target">
+                            <div class="child-menu">
+                                <div class="content-list content-menu">
+                                    <ul class="list-wrapper pd-lr-10">
+                                        <li> <a href="email.html"> <div class="menu-icon"><i class=" fa fa-envelope"></i></div> <div class="menu-text">Email List</div> </a> </li>
+                                        <li> <a href="email-compose.html"> <div class="menu-icon"><i class=" icon-feather"></i></div> <div class="menu-text">Compose</div> </a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>*@
+                </div>
+                <!-- menu -->
+            </div>
+            <!-- vd_panel-menu -->
+        </div>
+    </div>
+    <!-- vd_title-section -->
+
+    <div class="vd_content-section clearfix">
+        <!---->
+        <div id="index_main" class="container">
+            <div class="row">
+                <div class="vd_status-widget vd_bg-red  widget col-md-5">
+                    <div class="vd_panel-menu">
+                        <div id="dv_userRefresh" data-action="refresh" data-original-title="Refresh" data-rel="tooltip" class="menu entypo-icon smaller-font">
+                            <i class="icon-cycle"></i>
+                        </div>
+                    </div>
+                    <!-- vd_panel-menu -->
+
+                    <a class="panel-body" href="#">
+                        <div class="clearfix">
+                            <span class="menu-icon">
+                                <i class="icon-bars"></i>
+                            </span>
+                            <span class="menu-value" id="sp_userCount">
+                                @ViewBag.userCount
+                            </span>
+                        </div>
+                        <div class="menu-text clearfix">
+                            会员总人数
+                        </div>
+                    </a>
+                </div>
+                <div class="vd_status-widget vd_bg-grey widget col-md-5 col-md-offset-1">
+                    <div class="vd_panel-menu">
+                        <div id="dv_recordCountRefresh" data-action="refresh" data-original-title="Refresh" data-rel="tooltip" class=" menu entypo-icon smaller-font">
+                            <i class="icon-cycle"></i>
+                        </div>
+                    </div>
+                    <!-- vd_panel-menu -->
+
+                    <a class="panel-body" href="#">
+                        <div class="clearfix">
+                            <span class="menu-icon">
+                                <i class="fa fa-tasks"></i>
+                            </span>
+                            <span class="menu-value" id="sp_recordCount">
+                                @ViewBag.totalRecordCount
+                            </span>
+                        </div>
+                        <div class="menu-text clearfix">
+                            收支总记录数
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="vd_status-widget vd_bg-yellow widget col-md-5">
+                    <div class="vd_panel-menu">
+                        <div id="dv_payRefresh" data-action="refresh" data-original-title="Refresh" data-rel="tooltip" class=" menu entypo-icon smaller-font">
+                            <i class="icon-cycle"></i>
+                        </div>
+                    </div>
+                    <!-- vd_panel-menu -->
+
+                    <a class="panel-body" href="#">
+                        <div class="clearfix">
+                            <span class="menu-icon">
+                                <i class="icon-users"></i>
+                            </span>
+                            <span class="menu-value" id="sp_payMoney">
+                                @ViewBag.totalPay
+                            </span>
+                        </div>
+                        <div class="menu-text clearfix">
+                            会员总支出金额(记录数为<span id="sp_payCount">@ViewBag.payCount</span>)
+                        </div>
+                    </a>
+                </div>
+                <div class="vd_status-widget vd_bg-blue widget col-md-5 col-md-offset-1">
+                    <div class="vd_panel-menu">
+                        <div id="dv_incomeRefresh" data-action="refresh" data-original-title="Refresh" data-rel="tooltip" class=" menu entypo-icon smaller-font">
+                            <i class="icon-cycle"></i>
+                        </div>
+                    </div>
+                    <!-- vd_panel-menu -->
+
+                    <a class="panel-body" href="#">
+                        <div class="clearfix">
+                            <span class="menu-icon">
+                                <i class="fa fa-comments"></i>
+                            </span>
+                            <span class="menu-value" id="sp_incomeMoney">
+                                @ViewBag.totalIncome
+                            </span>
+                        </div>
+                        <div class="menu-text clearfix">
+                            会员总收入金额(记录数为<span id="sp_incomeCount">@ViewBag.incomeCount</span>)
+                        </div>
+                    </a>
+                </div>                
+            </div>
+        </div>        
+        <!-- panel -->
+    </div>
+    <!-- .vd_content-section -->
+</div>
+<script src="~/Contents/cutomJavascript/main.js"></script>

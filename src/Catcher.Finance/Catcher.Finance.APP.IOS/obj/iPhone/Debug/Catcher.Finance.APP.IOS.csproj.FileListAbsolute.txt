@@ -1,0 +1,11 @@
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.IOS\bin\iPhone\Debug\CatcherFinanceAPPIOS.exe
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.IOS\bin\iPhone\Debug\CatcherFinanceAPPIOS.pdb
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.IOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.IOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.IOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.IOS\obj\iPhone\Debug\optimized\
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.IOS\obj\iPhone\Debug\Catcher.Finance.APP.IOS.csprojResolveAssemblyReference.cache
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.IOS\obj\iPhone\Debug\CatcherFinanceAPPIOS.exe
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.IOS\obj\iPhone\Debug\CatcherFinanceAPPIOS.pdb
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.IOS\obj\iPhone\Debug\CatcherFinanceAPPIOS.exe.mdb
+D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.IOS\bin\iPhone\Debug\CatcherFinanceAPPIOS.exe.mdb

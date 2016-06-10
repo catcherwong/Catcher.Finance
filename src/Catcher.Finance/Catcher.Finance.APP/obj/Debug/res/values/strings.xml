@@ -1,0 +1,1 @@
+<resources><string name="Hello">Hello World, Click Me!</string><string name="ApplicationName">Catcher.Finance.APP</string><string name="domain">http://192.168.120.120:8098/</string><string-array name="typeSpinner"><item>income</item><item>pay</item></string-array></resources>

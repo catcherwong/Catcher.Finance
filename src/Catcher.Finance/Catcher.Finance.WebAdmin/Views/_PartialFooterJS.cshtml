@@ -1,0 +1,64 @@
+﻿<!--
+<a class="back-top" href="#" id="back-top"> <i class="icon-chevron-up icon-white"> </i> </a> -->
+<!-- Javascript =============================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="~/Contents/js/excanvas.js"></script>
+<![endif]-->
+<script type="text/javascript" src="~/Contents/js/bootstrap.min.js"></script>
+<script type="text/javascript" src='~/Contents/plugins/jquery-ui/jquery-ui.custom.min.js'></script>
+<script type="text/javascript" src="~/Contents/plugins/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+<script type="text/javascript" src="~/Contents/js/caroufredsel.js"></script>
+<script type="text/javascript" src="~/Contents/js/plugins.js"></script>
+
+<script type="text/javascript" src="~/Contents/plugins/breakpoints/breakpoints.js"></script>
+<script type="text/javascript" src="~/Contents/plugins/dataTables/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="~/Contents/plugins/prettyPhoto-plugin/js/jquery.prettyPhoto.js"></script>
+
+<script type="text/javascript" src="~/Contents/plugins/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="~/Contents/plugins/tagsInput/jquery.tagsinput.min.js"></script>
+<script type="text/javascript" src="~/Contents/plugins/bootstrap-switch/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="~/Contents/plugins/blockUI/jquery.blockUI.js"></script>
+<script type="text/javascript" src="~/Contents/plugins/pnotify/js/jquery.pnotify.min.js"></script>
+
+<script type="text/javascript" src="~/Contents/js/theme.js"></script>
+<script type="text/javascript" src="~/Contents/custom/custom.js"></script>
+<script type="text/javascript" src="~/Contents/cutomJavascript/Common.js"></script>
+
+<!-- Specific Page Scripts Put Here -->
+
+<script>
+
+$(function () {
+	"use strict";
+	$('#checkbox-0').click(function() {
+    if($(this).is(':checked'))
+        $('.checkbox-group').prop('checked', true).closest("tr").addClass('row-warning');
+    else
+        $('.checkbox-group').prop('checked', false).closest("tr").removeClass('row-warning');
+	});
+
+	$('.checkbox-group').click(function() {
+    if($(this).is(':checked'))
+		$(this).closest("tr").addClass('row-warning');
+    else
+		$(this).closest("tr").removeClass('row-warning')
+	});
+});
+</script>
+<!-- Specific Page Scripts END -->
+<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
+
+<script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
