@@ -1,2 +1,0 @@
-D:\GithubCode\Catcher.Finance\src\Catcher.Finance\Catcher.Finance.APP.Lib\Catcher.Finance.APPLib.csproj;neutral
-D:\GithubCode\Catcher.Finance\src\Catcher.Finance\Catcher.Finance.UWP\Catcher.Finance.UWP.csproj;x86

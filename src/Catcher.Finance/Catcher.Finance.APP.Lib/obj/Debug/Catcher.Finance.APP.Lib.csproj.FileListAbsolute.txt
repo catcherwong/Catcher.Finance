@@ -1,6 +1,0 @@
-D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Debug\Catcher.Finance.APP.Lib.dll
-D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Debug\Catcher.Finance.APP.Lib.pdb
-D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Debug\Catcher.Finance.APP.Lib.csprojResolveAssemblyReference.cache
-D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Debug\Catcher.Finance.APP.Lib.dll
-D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\obj\Debug\Catcher.Finance.APP.Lib.pdb
-D:\code-sample\C#_AppSpace\Catcher.Finance\Catcher.Finance.APP.Lib\bin\Debug\System.Json.dll
